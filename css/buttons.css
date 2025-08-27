@@ -1,0 +1,27 @@
+.btn {
+  /* FONT */
+  font-family: var(--font-buttons), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* SIZE */
+  padding: 1.2rem 2.2rem;
+  width: fit-content;
+  /* GENERAL */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
+  transition: 100ms ease-out;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  transition: 100ms ease-in;
+}
+
+.btn-small {
+  font-size: 12px;
+  padding: 1rem 1.8rem;
+}

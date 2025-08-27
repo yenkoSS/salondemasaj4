@@ -1,0 +1,9 @@
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.img-hero {
+  width: 75%;
+  height: auto;
+}

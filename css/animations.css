@@ -1,0 +1,111 @@
+.translateXneg {
+  animation: translateXneg 400ms;
+}
+
+@keyframes translateXneg {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.translateYneg {
+  animation: translateYneg 400ms;
+}
+
+@keyframes translateYneg {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes showBtnHero {
+  from {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes showBtnHeroSecond {
+  from {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes showTextHero {
+  from {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showTextHeroWelcome {
+  from {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showH1 {
+  from {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.pulseContinuous {
+  animation: pulseContinuous 1.8s ease-out infinite;
+}
+
+@keyframes pulseContinuous {
+  0% {
+    box-shadow: 0 0 0 0 #4a7cd238;
+  }
+  50% {
+    box-shadow: 0 0 0 6px #4a7cd248;
+  }
+  100% {
+    box-shadow: 0 0 0 0 #4a7cd26c;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

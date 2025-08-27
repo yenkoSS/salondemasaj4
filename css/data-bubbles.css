@@ -1,0 +1,19 @@
+[data-bubbles] {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+[data-bubbles] > .bubble-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-bubbles] > .bubble-canvas {
+    display: none;
+  }
+}

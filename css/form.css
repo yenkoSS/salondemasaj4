@@ -1,0 +1,48 @@
+.form-contact {
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .form-contact {
+    margin-bottom: 0;
+  }
+}
+
+.form-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  font-family: var(--font-heading-secondary);
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.form-textarea {
+  height: 120px;
+  resize: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.form-textarea:focus {
+  outline: none;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top: 4px solid #2e86de;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}

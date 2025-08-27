@@ -1,0 +1,59 @@
+.card-faq {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.card-about:hover {
+  transition: 300ms ease-in;
+}
+
+.card-about:hover .icon-whyus {
+  padding: 10px;
+  background-color: var(--color-primary);
+  transition: 300ms ease-in;
+}
+
+.card-hover-translate {
+  position: relative;
+  overflow: hidden;
+  transition: 200ms ease-in;
+  z-index: 2;
+}
+
+.card-services:hover {
+  transition: 300ms ease-in;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.082);
+}
+
+.card-services:hover .icon-services {
+  padding: 10px;
+  background-color: var(--color-secondary);
+  fill: white;
+  transition: 300ms ease-in;
+}
+
+.card-hover-translate:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-dark-grey);
+  transition: 200ms ease-in;
+  z-index: -1;
+}
+
+.card-hover-translate:hover:before {
+  top: 0;
+  transition: 200ms ease-in;
+}
+
+.card-faq {
+  transition: 200ms ease-out;
+}
+
+.card-faq:hover {
+  transform: translateX(-7px);
+  transition: 200ms ease-in;
+}

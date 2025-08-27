@@ -1,0 +1,25 @@
+section {
+  padding: 8rem 0;
+  scroll-margin-top: 10rem;
+}
+
+.section-scroll-margin-top {
+  scroll-margin-top: 14rem !important;
+}
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.subsection {
+  padding: 0;
+}
+
+footer {
+  background-color: var(--color-primary);
+}
